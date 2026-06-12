@@ -16,7 +16,15 @@ LAUNCHER_PATHS = {
     "fr":          r"",   # 法语
     "es-419":      r"",   # 西班牙语
     "de":          r"",   # 德语
+    "zh":          r"",   # 中文简体
+    "en":          r"",   # 英语
+    "ja":          r"",   # 日语
+    "ru":          r"",   # 俄语
+    "ko":          r"",   # 韩语
 }
 
 # 启动游戏后等待进入界面的秒数
 STARTUP_WAIT = 15.0
+
+# 游戏进程的 exe 文件名（用于切换语言时关闭上一个客户端）
+GAME_EXE = "YourGame.exe"
